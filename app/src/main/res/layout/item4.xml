@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#FFFFFF"
+    android:layout_height="40.08dp">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="22.08dp"
+        android:layout_marginTop="6.72dp"
+        android:includeFontPadding="false"
+        android:textColor="#666666"
+        android:textSize="14.4sp"
+        tools:text="N康隆达" />
+
+    <TextView
+        android:id="@+id/tv_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="3.84dp"
+        android:layout_marginLeft="22.08dp"
+        android:includeFontPadding="false"
+        android:textColor="#9A9A9A"
+        android:textSize="8.64sp"
+        tools:text="SH603665" />
+
+    <TextView
+        android:id="@+id/tv_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:includeFontPadding="false"
+        android:textColor="#707070"
+        android:textSize="14.4sp"
+        tools:text="30.82" />
+
+    <TextView
+        android:id="@+id/tv_percent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="24dp"
+        android:includeFontPadding="false"
+        android:textColor="#EC271C"
+        android:textSize="14.4sp"
+        tools:text="+44.02%" />
+</RelativeLayout>

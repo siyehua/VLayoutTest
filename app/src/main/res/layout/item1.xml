@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="62.4dp"
+    android:layout_marginLeft="2.88dp"
+    android:layout_marginRight="2.88dp"
+    android:background="@drawable/white_10">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="3.74dp"
+        android:includeFontPadding="false"
+        android:textColor="#939393"
+        android:textSize="11.52sp"
+        tools:text="热门行业" />
+
+    <TextView
+        android:id="@+id/tv_current_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:includeFontPadding="false"
+        android:textColor="#E9261D"
+        android:textSize="14.4sp"
+        android:textStyle="bold"
+        tools:text="3218.18" />
+
+    <TextView
+        android:id="@+id/tv_change_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="7.7dp"
+        android:layout_marginLeft="17.28dp"
+        android:includeFontPadding="false"
+        android:textColor="#E9261D"
+        android:textSize="14.4sp"
+        tools:text="+6.40" />
+
+    <TextView
+        android:id="@+id/tv_change_percent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="7.7dp"
+        android:layout_marginRight="17.28dp"
+        android:includeFontPadding="false"
+        android:textColor="#E9261D"
+        android:textSize="14.4sp"
+        tools:text="+0.21%" />
+</RelativeLayout>
